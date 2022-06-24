@@ -1,0 +1,51 @@
+#navbar {
+    padding: 1.5%;
+    background-image: url("../images/masthead.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.title_name {
+    flex-grow: 1;
+    text-align: center;
+    filter: invert(100%);
+    
+}
+#title_name{
+    width: 50%;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    text-align: end;    
+}
+
+#icons{
+    height: 50%;
+    filter: invert(100%);
+}
+.navbar a{
+    color: white;
+}
+
+
+.scrollDwn, .ordrbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.scrollDwn img{
+    margin: 0%;
+    padding: 0%;
+}

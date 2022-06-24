@@ -1,0 +1,1 @@
+npx node-static -p 8081

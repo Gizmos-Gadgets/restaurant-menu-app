@@ -1,0 +1,47 @@
+<div id="home">
+        <div class="contents contentText ">
+            <p>GOOD FOOD ONLY</p>
+            <p>Those who approve of such silliness as Hawaiian pizza and/or adding raisins to things will be politely asked to
+                leave.</br>
+                I SAID GOOD DAY!</p>
+        </div>
+        <img src="images/noodles.png" alt="noodles" class="contents images ">
+        <img src="images/rice.png" alt="noodles" class="contents images ">
+        
+        <div class="contentText contents">
+            <p>FRIED RICE REQUIRED</p>
+            <p>All orders must include at least 1.5 lb of fried rice...</br>
+                ...Because it's fried rice.</br>
+                ...You're welcome.</p>
+        </div>       
+        <div class="contents contentText ">
+            <p>SECRET WEAPON</p>
+            <p>We have fancy red chopsticks. They make the sushi taste approximately 47.2% better.</br>
+                If you have to ask, you don't deserve to know.</p>
+        </div>
+        <img src="images/sushi.png" alt="noodles" class="contents images">
+    </div>
+
+
+
+//CSS
+#home{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contentText{
+    padding: 150px 50px;
+    margin: 0;
+    /* width: 25%; */
+}
+.images{
+    border: white 1px solid;
+    /* width: 50%; */
+}
+
+.contents{
+    flex: 1 50%;
+}
